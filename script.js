@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', function() {
   });
   
   // Typing effect in hero section
-  const typingText = "Full Stack Developer";
+  const typingText = "Data Scientist";
   let typingIndex = 0;
   const typingElement = document.querySelector('.typing-text');
   
