@@ -1,0 +1,577 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Portfolio</title>
+  <link rel="stylesheet" href="styles.css">
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <!-- Header -->
+  <header id="header">
+    <div class="container">
+      <a href="#" class="logo">Portfolio</a>
+      
+      <!-- Desktop Navigation -->
+      <nav class="desktop-nav">
+        <ul>
+          <li><a href="#about" class="nav-link">About Me</a></li>
+          <li><a href="#resume" class="nav-link">Resume</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+      
+      <!-- Mobile Menu Button -->
+      <button class="mobile-menu-btn">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </div>
+    
+    <!-- Mobile Navigation -->
+    <nav class="mobile-nav">
+      <ul>
+        <li><a href="#about" class="nav-link">About Me</a></li>
+        <li><a href="#resume" class="nav-link">Resume</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#certifications" class="nav-link">Certifications</a></li>
+        <li><a href="#skills" class="nav-link">Skills</a></li>
+        <li><a href="#achievements" class="nav-link">Achievements</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="hero" class="hero-section">
+    <div class="container">
+      <h1>Hello, I'm <span class="highlight">Sohil Sharma</span></h1>
+      <h2 class="typing-text">Data Scientist<span class="cursor">|</span></h2>
+      <p>I analyze and visualize data to derive meaningful insights and build machine learning solutions.</p>
+      <a href="#about" class="btn primary-btn">Explore My Work <i class="fas fa-arrow-down"></i></a>
+    </div>
+    <div class="scroll-indicator">
+      <i class="fas fa-arrow-down"></i>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About <span class="highlight">Me</span></h2>
+      
+      <div class="about-content">
+        <div class="about-image">
+          <img src="https://iili.io/3M6515J.png" alt="Profile Picture">
+        </div>
+        
+        <div class="about-text">
+          <h3>I'm <span class="highlight">Sohil Sharma</span>, a Data Scientist</h3>
+          
+          <p>I'm passionate about uncovering patterns in data and turning information into actionable insights using tools like Python, Excel, Tableau, and Power BI.</p>
+          
+          <p>My journey in tech began with a curiosity to solve problems through logic and code. Over the years, I've explored languages like Python, R, and Java, and honed skills in data analysis, machine learning, and visualization.</p>
+          
+          <div class="about-info">
+            <div class="info-column">
+              <p><strong>Name:</strong> Sohil Sharma</p>
+              <p><strong>Experience:</strong> Fresher</p>
+              <p><strong>Location:</strong> Phagwara</p>
+            </div>
+            <div class="info-column">
+              <p><strong>Email:</strong> shivsonsohil@gmail.com</p>
+              <p><strong>Availability:</strong> Available</p>
+              <p><strong>Languages:</strong> English, ...</p>
+            </div>
+          </div>
+          
+          <a href="#" class="btn primary-btn"><i class="fas fa-download"></i> Download CV</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Resume Section -->
+  <section id="resume" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Resume</span></h2>
+      
+      <!-- Education Content -->
+      <div class="resume-content">
+        <div class="tab-content active" id="education">
+          <div class="timeline">
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">2017 - 2021</span>
+                <h3>Schooling (9th to 12th Grade)</h3>
+                <p class="company">Indira Memorial Senior Secondary School</p>
+                <p>Focused on mathematics, physics, and introductory computer science. Sparked early interest in software development.</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">2022 - 2026</span>
+                <h3>Bachelor's in Computer Science</h3>
+                <p class="company">Lovely Professional University</p>
+                <p>Studied programming fundamentals, data structures, algorithms, and web development.</p>
+              </div>
+            </div>
+            
+            <div class="timeline-item">
+              <div class="timeline-dot"></div>
+              <div class="timeline-content">
+                <span class="date">2024</span>
+                <h3>Training by CipherSchools</h3>
+                <p class="company">cipherschools.com</p>
+                <p>Completed a comprehensive six-week training program covering Python programming, data manipulation, exploratory data analysis, machine learning algorithms, and hands-on project work.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Projects Section -->
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Projects</span></h2>
+      
+      <div class="projects-grid">
+        <!-- Project 1 -->
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://iili.io/3MirKUN.png" alt="E-Commerce Platform">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Data Visualization Using Excel</h3>
+            <p>An interactive dashboard built using Excel to analyze and visualize complex datasets with charts, pivot tables, and slicers for dynamic insights.</p>
+            <div class="project-tags">
+              <span>Excel</span>
+              
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 2 -->
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://iili.io/3MirBRt.png" alt="Task Management App">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Data Visualization Using Tableau</h3>
+            <p>Designed an interactive data dashboard in Tableau to analyze and visualize complex datasets using filters, parameters, and calculated fields for insightful storytelling.</p>
+            <div class="project-tags">
+              <span>Tableau</span>
+              
+            </div>
+          </div>
+        </div>
+        
+        <!-- Project 3 -->
+        <div class="project-card">
+          <div class="project-img">
+            <img src="https://iili.io/3Mie7ZQ.png" alt="Portfolio Website">
+            <div class="project-overlay">
+              <div class="project-links">
+                <a href="#" class="project-link"><i class="fas fa-external-link-alt"></i></a>
+                <a href="#" class="project-link"><i class="fab fa-github"></i></a>
+              </div>
+            </div>
+          </div>
+          <div class="project-info">
+            <h3>Portfolio Website</h3>
+            <p>A responsive portfolio website showcasing projects and skills with a modern design.</p>
+            <div class="project-tags">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certifications Section -->
+  <section id="certifications" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Certifications</span></h2>
+      
+      <div class="certifications-grid">
+        <!-- Certification 1 -->
+        <div class="cert-card" data-id="1">
+          <div class="cert-img">
+            <img src="https://iili.io/3M6GP14.jpg" alt="Full Stack Web Development">
+          </div>
+          <div class="cert-info">
+            <h3>Become a Data Scientist Learning Path From Linkedin</h3>
+            <p>Linkedin</p>
+            <span>April 2023</span>
+          </div>
+        </div>
+        
+        <!-- Certification 2 -->
+        <div class="cert-card" data-id="2">
+          <div class="cert-img">
+            <img src="https://iili.io/3MijJbp.jpg" alt="React Developer Certification">
+          </div>
+          <div class="cert-info">
+            <h3>Generative Artificial Intelligence From Coursera</h3>
+            <p>Coursera</p>
+            <span>May 2024</span>
+          </div>
+        </div>
+        
+        <!-- Certification 3 -->
+        <div class="cert-card" data-id="3">
+          <div class="cert-img">
+            <img src="https://iili.io/3Mijxe4.jpg " alt="AWS Certified Developer">
+          </div>
+          <div class="cert-info">
+            <h3>Design And Analysis of Algorithms From Coursera</h3>
+            <p>Coursera</p>
+            <span>May 2024</span>
+          </div>
+        </div>
+        
+        <!-- Certification 4 -->
+        <div class="cert-card" data-id="4">
+          <div class="cert-img">
+            <img src="https://iili.io/3MihPOQ.jpg" alt="Professional Scrum Master">
+          </div>
+          <div class="cert-info">
+            <h3>Python, Data Science & Machine Learning From CipherSchools</h3>
+            <p>CipherSchools</p>
+            <span>July 2024</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Certificate Modal -->
+  <div id="cert-modal" class="modal">
+    <div class="modal-content">
+      <span class="close-modal">&times;</span>
+      <div class="modal-body">
+        <div class="modal-img">
+          <img id="modal-cert-img" src="/placeholder.svg" alt="Certificate">
+        </div>
+        <div class="modal-info">
+          <h3 id="modal-cert-title"></h3>
+          <div class="modal-details">
+            <div class="detail-item">
+              <h4>Issuing Organization</h4>
+              <p id="modal-cert-issuer"></p>
+            </div>
+            <div class="detail-item">
+              <h4>Issue Date</h4>
+              <p id="modal-cert-date"></p>
+            </div>
+            <div class="detail-item">
+              <h4>Credential ID</h4>
+              <p id="modal-cert-id"></p>
+            </div>
+          </div>
+          <a href="#" class="btn primary-btn"><i class="fas fa-external-link-alt"></i> Verify Credential</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Skills Section -->
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Skills</span></h2>
+      
+      <div class="skills-grid">
+        <!-- Frontend Skills -->
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>R</span>
+            <span>95%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 95%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Python</span>
+            <span>90%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 90%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Excel</span>
+            <span>92%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 92%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Tableau</span>
+            <span>88%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 88%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Power BI</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Machine Learning</span>
+            <span>80%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 80%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Predictive Analytics</span>
+            <span>82%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 82%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>SQL</span>
+            <span>75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Git</span>
+            <span>85%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 85%"></div>
+          </div>
+        </div>
+        
+        <div class="skill-item">
+          <div class="skill-info">
+            <span>Java</span>
+            <span>75%</span>
+          </div>
+          <div class="skill-bar">
+            <div class="skill-progress" style="width: 75%"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Achievements Section -->
+  <section id="achievements" class="section alt-bg">
+    <div class="container">
+      <h2 class="section-title">My <span class="highlight">Achievements</span></h2>
+      
+      <div class="achievements-grid">
+        <!-- Achievement 1 -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-award"></i>
+          </div>
+          <h3 class="achievement-count">198th</h3>
+          <h4 class="achievement-title">Rank</h4>
+          <p>Ranked 198th at the institute level by solving over 300+ coding problems with a coding score of 1341 and maintaining a 90-day streak.</p>
+        </div>
+        
+        <!-- Achievement 2 -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3 class="achievement-count">1263</h3>
+          <h4 class="achievement-title">Rating</h4>
+          <p>Achieved a 1263 rating on CodeChef Weekly Contests by actively participating in 30+ contests and solving 400+ problems.</p>
+        </div>
+        
+        <!-- Achievement 3 -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-briefcase"></i>
+          </div>
+          <h3 class="achievement-count">353</h3>
+          <h4 class="achievement-title">Days</h4>
+          <p>Maintained a 353-day streak on CodeChef by consistently solving at least one problem daily for nearly a year.</p>
+        </div>
+        
+        <!-- Achievement 4 -->
+        <div class="achievement-card">
+          <div class="achievement-icon">
+            <i class="fas fa-clock"></i>
+          </div>
+          <h3 class="achievement-count">2+</h3>
+          <h4 class="achievement-title">Years</h4>
+          <p>Over a year of practical exposure to data manipulation, visualization, and modeling through training, coursework, and self-driven learning.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Section -->
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact <span class="highlight">Me</span></h2>
+      
+      <div class="contact-container">
+        <div class="contact-info">
+          <h3>Get In Touch</h3>
+          <p>Feel free to reach out to me for any questions, project inquiries, or just to say hello. I'm always open to discussing new projects and opportunities.</p>
+          
+          <div class="contact-details">
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-map-marker-alt"></i>
+              </div>
+              <div>
+                <h4>Location</h4>
+                <p>Phagwara, India</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-envelope"></i>
+              </div>
+              <div>
+                <h4>Email</h4>
+                <p>shivsonsohil@gmail.com</p>
+              </div>
+            </div>
+            
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fas fa-phone"></i>
+              </div>
+              <div>
+                <h4>Phone</h4>
+                <p>+91-7906778691</p>
+              </div>
+            </div>
+          </div>
+        </div>
+        
+        <div class="contact-form">
+          <form id="contactForm">
+            <div class="form-row">
+              <div class="form-group">
+                <label for="name">Sohil Sharma</label>
+                <input type="text" id="name" name="name" placeholder="John Doe" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Your Email</label>
+                <input type="email" id="email" name="email" placeholder="john@example.com" required>
+              </div>
+            </div>
+            
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="Project Inquiry" required>
+            </div>
+            
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" placeholder="Your message here..." required></textarea>
+            </div>
+            
+            <button type="submit" class="btn primary-btn btn-block">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer id="footer">
+    <div class="container">
+      <div class="footer-content">
+        <div class="footer-logo">
+          <a href="#">Portfolio</a>
+        </div>
+        
+        <div class="footer-email">
+          <a href="mailto:shivsonsohil@gmail.com">
+            <i class="fas fa-envelope"></i>
+            shivsonsohil@gmail.com
+          </a>
+        </div>
+        
+        <div class="social-links">
+          <a href="#" aria-label="Facebook">
+            <i class="fab fa-facebook-f"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+          <a href="#" aria-label="LinkedIn">
+            <i class="fab fa-linkedin-in"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <span id="current-year"></span> Sohil Sharma. All rights reserved.</p>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
